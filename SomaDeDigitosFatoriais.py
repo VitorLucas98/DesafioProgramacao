@@ -1,3 +1,14 @@
+"""
+Problema 20 - Soma de dígitos fatoriais em Python
+
+n ! significa n × ( n - 1) × ... × 3 × 2 × 1
+
+Por exemplo, 10! = 10 × 9 × ... × 3 × 2 × 1 = 3628800
+e a soma dos dígitos no número 10! é 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
+
+Encontre a soma dos dígitos no número 100!
+"""
+
 
 fatorial = 1  # iniciaremos a variável com o valor 1, pois com ela será realizado e armazenado o valor do fatorial
 cont = 1  # iniciaremos a variável com o valor 1, pois será ultilizada para o calculo e para controlar o loop
